@@ -1,0 +1,82 @@
+/* 
+This CSS file was created by Sirous I.  This is only for the purpose of course activity.
+September 19, 2022
+*/
+
+body {
+    background-color: rgb(254, 255, 254);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:25px
+}
+
+h1 {
+    color: #0a0501;
+    Font-style: bold;
+    font-size: 24px;
+}
+
+h2 {
+    Font-style: bold;
+    color:green;
+    text-decoration: underline overline;
+    font-size: 32px;     
+}
+
+h3 {
+    color: #F0B27A;  
+}
+
+h4 {
+    color: #270303;
+    Font-style: italic;
+}
+
+form{
+    padding: 15px;
+    background-color: white;
+    font-style: italic;
+    font-weight: 900px;
+}
+
+input, textarea {
+    background-color: rgb(243, 243, 243);
+    width: 400px;
+}
+
+div1 {
+    background-color: lightgrey;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+}
+
+div2 {
+    width: 170px;
+    padding: 5px;
+    border: 5px solid gray;
+    margin: 0;
+}
+
+#sticky-div {
+    position : sticky;
+    top :0;
+    background-color:  white;
+}
+
+ #relative-div {
+    position : relative;
+    left : 12px;
+    background-color:  white;
+}
+
+ #cookiesmatter{
+    Font-style: italic;
+}
+
+.choci-text {     
+    color: darkmagenta;
+}   
+
+.contactform1 button[type=submit]:hover {
+    background-color: #c0a762;
+}
